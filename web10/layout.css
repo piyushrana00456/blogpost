@@ -1,0 +1,31 @@
+.wrap{
+    width:70%;
+    margin: auto;
+    border:1px solid red
+}
+.head{
+    text-align: center;
+}
+.blog{
+    width:80%;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#img>img{
+   height: 150px;
+}
+#button{
+    width: 100%;
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 50px;
+}
+.services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#desc{
+    display: flex;
+}
