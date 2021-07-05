@@ -22,10 +22,50 @@
     text-align: center;
     margin-top: 50px;
 }
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 0;
+    background-color: rgb(255, 51, 0);
+    color: white;
+    border: none;
+}
 .services{
     display: grid;
     grid-template-columns: auto auto auto;
+    border: 1px solid red;
+    margin-top: 100px;
+ 
+}
+#about{
+border: 1px solid red;
+width: 55%;
+margin-left: 70px;
+margin-top: -65px;
+}
+#about h3,p{
+    margin: 0;
+    margin-bottom: 15px;
 }
 #desc{
-    display: flex;
+    border: 1px solid red;
+    margin: 20px;
+    margin-left: 40px;
+}
+#desc>div>img{
+margin-top: 10px;
+}
+h6{
+    color: rgb(255, 51, 0);
+    font-size: 18px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: rgb(192, 172, 175);
+    font-size: 17px;
+}
+h3{
+    font-size: 20px;
 }
